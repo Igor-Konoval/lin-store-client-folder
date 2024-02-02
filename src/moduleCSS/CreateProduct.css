@@ -1,0 +1,25 @@
+.container-inputs {
+    /*mt-3 mb-3 d-flex flex-row align-items-baseline*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+@media (max-width: 500px) {
+    .container-inputs {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 374px) {
+    .container-inputs {
+        font-size: 12px;
+    }
+
+    .container-inputs input {
+        font-size: 12px;
+        padding: 8px 4px;
+    }
+}

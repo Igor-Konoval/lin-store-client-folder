@@ -1,0 +1,76 @@
+.custom-dropdown-button {
+    border-radius: 30%;
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+}
+
+.container-filterItem {
+    margin-top: 50px;
+}
+
+/*.container-filterItem :hover,*/
+/*.container-filterItem :active {*/
+/*    border-color: black;*/
+/*}*/
+
+.container-filterItem .btn:hover,
+.container-filterItem .btn-check:checked + .btn,
+.container-filterItem .btn.active,
+.container-filterItem .btn.show,
+.container-filterItem .btn:first-child:active,
+.container-filterItem :not(.btn-check) + .btn:active {
+    border-color: black;
+}
+
+
+.filterItem-a {
+    border-radius: 58px;
+    color: black;
+    /*background-color: rgb(243,243,243);*/
+    background-color: rgb(255 255 255);
+    border: 1px solid #d4cccc;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px 21px;
+    max-width: max-content;
+}
+
+.filterItem-img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+@media (max-width: 1200px) {
+    .filterItem-a {
+        font-size: 16px;
+        padding: 15px 18px;
+    }
+
+    .filterItem-img {
+        width: 17px;
+        height: 17px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .filterItem-a {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+}
+
+@media (max-width: 866px) {
+    .filterItem-a {
+        padding: 14px 10px;
+    }
+}
+
+@media (max-width: 773px) {
+    .container-filterItem {
+        margin-top: 12px;
+        width: fit-content;
+    }
+}

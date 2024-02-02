@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Версия ECMAScript для транспиляции
+    "module": "commonjs", // Стиль модулей (подходит для Node.js и большинства сред выполнения)
+    "strict": true, // Включить строгий режим TypeScript
+    "esModuleInterop": true, // Включить интероперабельность ES модулей
+    "jsx": "react", // Для файлов с расширением .tsx указываем, что это React JSX код
+  }
+}

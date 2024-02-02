@@ -1,0 +1,13 @@
+export const RECOVERY_PASSWORD_ROUTE: string = "/recovery/:link"
+export const FORGOT_PASSWORD_ROUTE: string = "/forgot-password"
+export const ADMIN_ROUTE: string = '/admin';
+export const LOGIN_ROUTE: string = '/login';
+export const REGISTRATION_ROUTE: string = '/registration';
+export const BASKET_ROUTE: string = '/basket';
+export const MAIN_ROUTE: string = '/products/:p?/:brand?/:type?/:search?';
+export const DEVICE_ROUTE: string = '/product';
+export const ORDER_ROUTE: string = '/order';
+export const ORDER_ROUTE_ACCEPT: string = '/order/acceptOrder/:orderNumber';
+export const ORDER_ROUTE_REJECT: string = '/order/rejectOrder/:orderNumber';
+export const COMMENTS_ROUTE: string = '/comments';
+export const SAVE_LIST_ROUTE: string = '/saveList';

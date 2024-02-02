@@ -1,0 +1,439 @@
+.body-page {
+    min-height: 60vh;
+    position: relative;
+}
+
+.sideInfoFixed-device {
+    margin-left: 40px;
+    position: fixed;
+    padding-right: 4%;
+    top: 150px;
+    right: 20px;
+    width: 45%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.sideInfoAbsolute-device {
+    margin-left: 40px;
+    position: absolute;
+    padding-right: 4%;
+    bottom: 0%;
+    right: 20px;
+    width: 45%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container-button {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px 25px;
+}
+
+.container-save-button {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 14px;
+}
+
+/*.main-img-product {*/
+/*    border-radius: 18px;*/
+/*    padding: 10px;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*    !*width: 100%;*!*/
+/*    !*min-height: 83%;*!*/
+/*    !*height: 550px;*!*/
+/*}*/
+
+.container-mainImg {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-characteristic {
+    font-weight: 500;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 8px 0px;
+    font-size: 22px;
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.main-img-product {
+    border-radius: 18px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    /*max-height: 80vh;*/
+    max-height: 700px; /* Максимальная высота для изображения */
+    /*min-height: 523px;*/
+    object-fit: contain; /* Сохраняет пропорции изображения, вписывая его в контейнер */
+}
+
+.main-img-product-loading {
+    height: 400px;
+    border: 1px solid #d2d2d2;
+}
+
+.container-spinner-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-type-brand {
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 23px;
+}
+
+.header-type-brand-block {
+    font-family: monospace;
+    color: #aaa;
+    display: flex;
+}
+
+.header-type-brand-block h2 {
+    font-size: 23px;
+}
+
+.header-product-shortDescription {
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 18px;
+}
+
+.colorImg {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 7px;
+    border: 1px solid rgb(190,190,190);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.selectedColorImg {
+    background-color: white;
+    font-weight: 500;
+    color: black;
+    border: 2.5px solid #000000;
+}
+
+.outOfStockColorImg {
+    color: #8b8b8b;
+    cursor: context-menu;
+}
+
+.container-gallery-img {
+    margin-top: 7px;
+    padding: 10px;
+}
+
+.slick-track {
+    margin-left: initial;
+}
+
+.slick-prev {
+    z-index: 5;
+    left: -3px;
+}
+
+.slick-next {
+    z-index: 5;
+    right: 7px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 35px;
+    color: #c7c7c7;
+}
+
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: 0.8;
+}
+
+.response-sentTo {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.response-commentUsername {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gallery-img-item {
+    /*width: 80px;*/
+    /*height: 80px;*/
+    margin-right: 5px;
+    cursor: pointer;
+    border: 1px solid #dfdfdf9e;
+    border-radius: 8px;
+}
+
+.info-count-comments {
+    /*padding-top: 15px;*/
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.info-empty-comments {
+    padding-top: 15px;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.img-product-isActive {
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    background-color: #ffffffa8;
+    font-size: 25px;
+    z-index: 2;
+    padding: 10px;
+}
+
+.response-commentDate {
+    font-size: 20px;
+}
+
+.response-commentData {
+    font-size: 20px;
+}
+
+.button-response-to-response {
+    font-size: 20px;
+}
+
+/*@media (max-width: 900px) {*/
+/*    .sideInfoAbsolute-device {*/
+/*        margin-left: 0px;*/
+/*        margin-top: 20px;*/
+/*        position: static;*/
+/*        padding-left: 10px;*/
+/*        display: flex;*/
+/*        width: auto;*/
+/*    }*/
+
+/*    .sideInfoFixed-device {*/
+/*        margin-left: 0px;*/
+/*        margin-top: 20px;*/
+/*        position: static;*/
+/*        padding-left: 10px;*/
+/*        display: flex;*/
+/*        width: auto;*/
+/*    }*/
+
+/*    .container-save-button {*/
+/*        padding: 10px 14px;*/
+/*        font-size: 19px;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 1150px) {
+    .btn-create-comment {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container-button {
+        font-size: 16px;
+        padding: 6px 15px;
+    }
+
+    .container-save-button {
+        /*padding: 5px 11px;*/
+        font-size: 17px;
+        padding: 5px 14px;
+    }
+
+    .info-count-comments {
+        font-size: 21px;
+    }
+
+    .info-empty-comments {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sideInfoFixed-device {
+        right: 32px;
+        width: 43%;
+    }
+}
+
+@media (max-width: 920px) {
+    /*.container-save-button {*/
+    /*    padding: 5px 11px;*/
+    /*    font-size: 17px;*/
+    /*}*/
+    .btn-img-selectedDevice {
+        width: 21px;
+        height: 21px;
+    }
+}
+
+@media (max-width: 889px) {
+    .sideInfoFixed-device {
+        right: 20px;
+        width: 45%;
+    }
+}
+
+@media (max-width: 767.5px) {
+    .sideInfoAbsolute-device {
+        margin-left: 0px;
+        margin-top: 20px;
+        position: static;
+        padding-left: 10px;
+        display: flex;
+        width: auto;
+    }
+
+    .sideInfoFixed-device {
+        margin-left: 0px;
+        margin-top: 20px;
+        position: static;
+        padding-left: 10px;
+        display: flex;
+        width: auto;
+    }
+
+    .container-save-button {
+        padding: 10px 14px;
+        font-size: 19px;
+    }
+
+    .container-gallery-img {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .container-mainImg {
+        padding: 0 80px;
+    }
+
+    .response-commentDate {
+        font-size: 16px;
+    }
+
+    .response-commentUsername {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 727px) {
+    .container-mainImg {
+        padding: 0 30px;
+    }
+
+    .container-gallery-img {
+        margin-left: initial;
+        margin-right: initial;
+    }
+}
+
+.body-userData-view {
+    border: 1px solid rgb(209 209 209);
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 7px 20px;
+}
+
+.userData-view {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    .container-mainImg {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    .header-type-brand {
+        font-size: 16px;
+    }
+    .header-type-brand-block h2 {
+        font-size: 16px;
+    }
+
+    .container-button {
+        padding: 8px 18px;
+        font-size: 17px;
+    }
+
+    .container-mainImg {
+        padding: initial;
+    }
+
+    .response-commentData {
+        font-size: 15px;
+    }
+
+    .response-toCommentUser {
+        font-size: 18px;
+    }
+
+    .button-response-to-response {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-img-product-loading {
+        height: 320px;
+    }
+
+    .container-button {
+        padding: 8px 18px;
+        font-size: 15px;
+    }
+
+    .container-save-button {
+        padding: 8px 18px;
+        font-size: 15px;
+    }
+
+    .body-userData-view {
+        font-size: 95%;
+    }
+
+    .userData-view {
+        font-size: 20px;
+    }
+
+    .response-commentUsername {
+        font-size: 14px;
+    }
+
+    .response-commentDate {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 410px) {
+    .main-img-product-loading {
+        height: 270px;
+    }
+}

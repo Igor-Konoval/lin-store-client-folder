@@ -1,0 +1,92 @@
+.dropdown-toggle::after {
+    display: none;
+}
+
+.container-dropdownPrice-toggle {
+    content: none;
+    margin-top: 50px;
+}
+
+.dropdownPrice-toggle {
+    border-radius: 58px;
+    /*border: 0px;*/
+    color: black;
+    /*background-color: rgb(243,243,243);*/
+    text-decoration: none;
+    background-color: rgb(255 255 255);
+    border: 1px solid #d4cccc;
+    font-size: 19px;
+    padding: 15px 21px;
+}
+
+.container-dropdownPrice-toggle .btn:hover,
+.container-dropdownPrice-toggle .btn-check:checked + .btn,
+.container-dropdownPrice-toggle .btn.active,
+.container-dropdownPrice-toggle .btn.show,
+.container-dropdownPrice-toggle .btn:first-child:active,
+.container-dropdownPrice-toggle :not(.btn-check) + .btn:active {
+    color: unset;
+    background-color: unset;
+    border-color: unset;
+}
+
+.dropdown-toggle-img {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.dropdownMenu-content {
+    width: 400px;
+    padding: 25px;
+}
+
+.rangeSelect-container {
+    width: auto;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+@media (max-width: 1200px) {
+    .dropdownPrice-toggle {
+        font-size: 16px;
+        padding: 15px 18px;
+    }
+
+    .dropdown-toggle-img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .dropdownPrice-toggle {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+}
+
+@media (max-width: 866px) {
+    .dropdownPrice-toggle {
+        padding: 14px 10px;
+    }
+}
+
+@media (max-width: 773px) {
+    .container-dropdownPrice-toggle {
+        margin-top: 10px;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 545px) {
+    .dropdownMenu-content {
+        width: 250px;
+    }
+
+    .rangeSelect-container {
+        /*width: auto;*/
+        min-width: 218px;
+        /*max-width: 600px;*/
+    }
+}

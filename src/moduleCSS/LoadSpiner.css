@@ -1,0 +1,30 @@
+ .container-spinner {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-container-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.load-spinner {
+    width: 80px;
+    height: 80px;
+    border: 6px solid #c5c5c5;
+    border-top: 6px solid rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    animation: animLoad 0.75s infinite linear;
+}
+
+@keyframes animLoad {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,42 @@
+.errorValid {
+    color: #b4000b
+}
+
+.auth-card-container {
+    width: 600px;
+}
+
+.form-title {
+    font-size: 26px;
+}
+
+/*.auth-button {*/
+/*    font-size: 20px;*/
+/*}*/
+
+@media (max-width: 575.20px) {
+    .auth-card-container {
+        width: 339px;
+    }
+
+    .auth-button {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .auth-input {
+        font-size: 17px;
+    }
+
+    .form-title {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .auth-button {
+        font-size: 18px;
+    }
+}

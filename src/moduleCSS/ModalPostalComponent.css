@@ -1,0 +1,15 @@
+.container-selectCity {
+    position: relative;
+}
+
+.body-selectCity {
+    border: 1px solid #d1d1d1;
+    border-radius: 7px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.item-selectCity:hover {
+    background-color: #dedede;
+    /*font-size: 17px;*/
+}

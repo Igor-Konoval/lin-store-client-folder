@@ -1,0 +1,64 @@
+.sortPrice-toggle {
+    border-radius: 58px;
+    /*border: 0px;*/
+    color: black;
+    /*background-color: rgb(243,243,243);*/
+    text-decoration: none;
+    background-color: rgb(255 255 255);
+    border: 1px solid #d4cccc;
+    font-size: 19px;
+    padding: 15px 21px;
+}
+
+.container-sortPrice-toggle {
+    content: none;
+    margin-top: 50px;
+}
+
+.sortPrice-img {
+    width: 20px;
+    height: 23px;
+}
+
+.container-sortPrice-toggle .btn:hover,
+.container-sortPrice-toggle .btn-check:checked + .btn,
+.container-sortPrice-toggle .btn.active,
+.container-sortPrice-toggle .btn.show,
+.container-sortPrice-toggle .btn:first-child:active,
+.container-sortPrice-toggle :not(.btn-check) + .btn:active {
+    color: unset;
+    background-color: unset;
+    border-color: unset;
+}
+
+@media (max-width: 1200px) {
+.sortPrice-toggle {
+    font-size: 16px;
+    padding: 15px 18px;
+}
+
+.sortPrice-img {
+    width: 17px;
+    height: 18px;
+}
+}
+
+@media (max-width: 1000px) {
+.sortPrice-toggle {
+    font-size: 15px;
+    padding: 14px 16px;
+}
+}
+
+@media (max-width: 866px) {
+.sortPrice-toggle {
+    padding: 14px 10px;
+}
+}
+
+@media (max-width: 773px) {
+.container-sortPrice-toggle {
+    margin-top: 12px;
+    width: fit-content;
+}
+}
